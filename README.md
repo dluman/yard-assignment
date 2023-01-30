@@ -52,11 +52,17 @@ Using the above details, you should be able to cobble together (a minimum) `3` f
 
 Because this isn't a math test, I'll provide some reminders about formulae used in calculation:
 
-|Shape |Area formula |
-|:-----|:------------|
-|Circle|$$ A = \pi r^2 $$ |
-|Rectangle| $$ A = width \times length$$
-|Triangle (`45-45-90`)| $$ A = \frac{1}{2} \times leg^{2} $$ |
+###### Circle
+
+$$ A = \pi r^2 $$
+
+###### Rectangle
+
+$$ A = width \times length$$
+
+###### Triangle
+
+$$ A = \frac{1}{2} \times leg^{2} $$
 
 #### The `Croomba.py` (garden)
 
