@@ -1,0 +1,45 @@
+#############
+# TREEHOUSE #
+#############
+0:
+  0: 
+    - It appears that R2B2 doesn't agree with your calculations.
+    - Rather than having an unproductive dispute with a robot,
+    - check your calculations.
+1:
+  0: 
+    - And in no time at all, the robot builds your treehouse!
+    - To have a look, change directories to your brand new structure.
+#############
+#   GARDEN  #
+#############
+3:
+  0:
+    - With an empty garden comes great opportunity!
+    - You could always...plant a new one!
+  1:
+    - FlowerBed.py is a tangled heap of workable, yet 
+    - unreadable process. There aren't any notes left
+    - behind, let's see if we can reorganize it.
+  2:
+    - The garden is split into 9 equal sections into which
+    - you can plant up to 9 flowers of a given color. 
+    - Don't want a plot of only one color? You can always
+    - plant over only a part of a section. Explore, and
+    - try it out!
+4:
+  0: 
+    - Check out your new garden -- find the garden.png file!
+#############
+#  TILLER   #
+#############
+5:
+  0:
+    - It looks like there used to be a flower bed here, but
+    - the previous renter left the grounds a mess. Appears
+    - that you need to till the dirt up again in order to plant.
+  1:
+    - Something about the shape of the ground you tilled doesn't
+    - look quite right. Consult your measurements.
+  2:
+    - Look at that a flower bed!
