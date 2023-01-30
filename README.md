@@ -48,6 +48,16 @@ The dimensions for your treehouse are as follows (it's rectangular):
 
 Using the above details, you should be able to cobble together (a minimum) `3` functions which represent the shapes you need.
 
+##### This ain't math class
+
+Because this isn't a math test, I'll provide some reminders about formulae used in calculation:
+
+|Shape |Area formula |
+|:-----|:------------|
+|Circle|$$ A = \pi r^2 $$ |
+|Rectangle| $$ A = width \times length$$
+|Triangle (`45-45-90`)| $$ A = \frac{1}{2} \times leg^{2} $$ |
+
 #### The `Croomba.py` (garden)
 
 Lucky you -- you've been given a garden and all of the responsibilities that come with tending and growing crops. You're allowed to grow whatever `Seed`s you can get from the `SeedCatalog.py`, but you need to figure out what kind of soil creates the best condition for all of your plants. Good thing `term-world` has (i.e. is _in_) the internet.
