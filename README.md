@@ -35,7 +35,8 @@ The dimensions for your treehouse are as follows (it's rectangular):
 
 |Dimension |Measurement       |Number         |Shape |
 |:---------|:-----------------|:--------------|:-----|
-|Walls |`18` × `27` × `7`     |`4`| Rectangle |
+|Walls |`18` × `7`, `27` × `7`     |`4`| Rectangle |
+|Floor |`18` × `27` | `1` | Rectangle |
 |Roof                         |
 |Gables    |`12.73` × `12.73` × `18` |`2` | Triangle |
 |Roofing   |`12.73` × `27`    |`2` | Rectangle |
