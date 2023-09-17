@@ -36,7 +36,7 @@ def main():
     # Create the narrator
     n = narrator.Narrator()
     # Set the proper path
-    n.path.change(2)
+    n.path.change({"act": 2, "scene": 0})
     # Narrate the scene
     n.narrate()
     # Ask user to select seeds
@@ -57,6 +57,7 @@ def main():
             n.path.scene = 2
         except:
             n.path.scene = 1
+            exit()
         n.narrate()
 
 if __name__ == "__main__":

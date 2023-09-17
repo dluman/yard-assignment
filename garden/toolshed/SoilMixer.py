@@ -63,9 +63,13 @@ class SoilMixer(FixtureSpec):
         return possible
 
     def mix(self):
+        inv = inventory.items.list
+        for item in inv:
+            if "Soil" in item:
+                return
         product = self.evaluate()
         if not product:
-            print("Looks like we don't have any more ingrediens for soil.")
+            print("⚠️  Not enough ingredients to make a soil.")
             return
         for item in self.soils:
             inventory.items.trash(item, 10)

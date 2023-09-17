@@ -3,7 +3,7 @@
 #############
 0:
   0: 
-    - It appears that R2B2 doesn't agree with your calculations.
+    - It appears that R2B2 the Luumba doesn't agree with your calculations.
     - Rather than having an unproductive dispute with a robot,
     - check your calculations.
 1:
@@ -33,10 +33,10 @@
 ###################
 3:
   0:
-    - Are there any seeds in the field?
+    - "⚠️  Are there any seeds in the field?"
   1:
-    - Hm...Are there any seeds in the field?
+    - "⚠️  Did you drop any seeds in the field?"
   3:
-    - Looks like it's not the strictly best soil, but we'll try.
+    - "⚠️  Might not be the best soil, but we'll try."
   4: 
-    - Looks like you're missing some fertilizer.
+    - "⚠️  Looks like you're missing some fertilizer."

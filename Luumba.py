@@ -37,16 +37,17 @@ def main():
     # NARRATIVE -------------------------------------
     n = narrator.Narrator()
     if int(total) == check_flag("lumber"):
-        n.path.change(1)
+        n.path.change({"act": 1, "scene": 0})
         os.makedirs("treehouse", exist_ok=True)
-        gitit.get(
-            file_name="treehouse-reflection.md",
-            file_type="reflections"
-        )
-        os.rename(
-            "treehouse-reflection.md",
-            "treehouse/reflection.md"
-        )
+        if not os.path.isfile("treehouse/reflection.md"):
+            gitit.get(
+                file_name="treehouse-reflection.md",
+                file_type="reflections"
+            )
+            os.rename(
+                "treehouse-reflection.md",
+                "treehouse/reflection.md"
+            )
     n.narrate()
     # NARRATIVE -------------------------------------
 

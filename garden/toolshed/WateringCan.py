@@ -21,7 +21,7 @@ class WateringCan(FixtureSpec):
         super().__init__()
         self.grow_chance = 0
         self.n = narrator.Narrator()
-        self.n.path.change(3)
+        self.n.path.change({"act": 3, "scene": 0})
         
     def validate(self):
         scenes = []
@@ -32,7 +32,6 @@ class WateringCan(FixtureSpec):
             scenes.append(4)
         if scenes:
             self.n.path.scene = scenes[0]
-            self.n.narrate()
             return False
         return True
 
@@ -83,6 +82,7 @@ class WateringCan(FixtureSpec):
                     Factory(grown_name)
                 for file in self.survey():
                     os.remove(file)
+            return
         print("You water the soil, but it doesn't seem to sprout.")
     
     def use(self, location: str = "."):
