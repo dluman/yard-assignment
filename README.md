@@ -10,7 +10,7 @@
 
 Last week `The Mayor` unveiled a new beautification program in an effort to make `term-world` *the* spot to be. This is the latest in a long line of proposals, projects, programs, and plans that `The Mayor` has been fervently working on to drive both tourism and residency within `term-world`.
 
-This particular program targets the tight-knit communities that lie on the outskirts of our fair `term-world`. The appeal of neighborhoods like `Qermiz` and `Shasha` has gone under the microscope, and according to `The Mayor`, it has been found sorely wanting.
+This particular program targets the tight-knit communities that lie on the outskirts of our fair `term-world`. The appeal of neighborhoods like `NEIGHBORHOOD` and `NEIGHBORHOOD` has gone under the microscope, and according to `The Mayor`, it has been found sorely wanting.
 
 Partnering with `The Landlord` that exercises ownership over these despondent, dismal, and downright depressing domestic hovels, `The Mayor` has decreed that all building exteriors in the targeted communities must meet certain specific "Beautification Standard" metrics, within a week's time. Once the one week grace period is up, `The Mayor` is planning on leveraging his authority as `The Mayor` to evict non-compliant residents.
 
@@ -29,7 +29,7 @@ In this set of activities we cover:
 
 #### The `Luumba.py` (Treehouse)
 
-![Treehouse Diagram visualizing table below](https://user-images.githubusercontent.com/1552764/215453276-7d9aa375-c501-4d0a-8bd4-58c9453c7d05.png)
+![Treehouse Diagram which visualizes data in the table below](https://user-images.githubusercontent.com/1552764/215453276-7d9aa375-c501-4d0a-8bd4-58c9453c7d05.png)
 
 The dimensions for your treehouse are as follows (it's rectangular):
 
@@ -43,9 +43,9 @@ The dimensions for your treehouse are as follows (it's rectangular):
 |Cut-outs                     | 
 |Windows     | `8` × `3` |`6` | Rectangle |
 |Entryway    | `5` × `5`  |`1` | Square |
-|Allowance for tree | `4` (radius) | `1` | Circle† |
+|Allowance for tree | `4` (radius) | `1` | Circle<sup>†</sup> |
 
-`†` Use `math.pi` for calculation
+<sup>†</sup> Use `math.pi` for calculation
 
 Using the above details, you should be able to cobble together (a minimum) `3` functions which represent the shapes you need.
 
@@ -135,7 +135,7 @@ If any more files are dropped they will continue to follow this numbering patter
 
 The chart below summarizes the percentage of your `inventory` that you'll need to have in order to create the correct soil.
 
-To collect the ingredients for the various soils, head to the `dirt` pile in the `garden` and pick up the correct amount of dirt to try your luck with the `SoilMixer`! Each soil has
+To collect the ingredients for the various soils, head to the `dirt` pile in the `garden` and pick up the correct amount of dirt to try your luck with the `Croomba.py`!
 
 |Type |Sand |Silt |Clay |
 |:----|:----|:----|:----|
