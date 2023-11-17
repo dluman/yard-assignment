@@ -17,6 +17,7 @@ from narrator.Checkpoint import check_flag
 # TODO: * Triangle
 # TODO: * Rectangle
 # TODO: * Circle
+# When completing term-world assignments *PAY ATTENTION TO THE README*
 
 
 # MIGHTDO: It could be helpful to create an additional function
@@ -38,7 +39,7 @@ def main():
     # TODO: Add all of the calculated areas to achieve the full
     #       amount of lumber used; use the "total" variable
 
-    # TODO: Subtract cut-outs from "total"
+    # TODO: Subtract cut-outs from "total" area of wood
 
     # NARRATIVE -------------------------------------
     n = narrator.Narrator()
