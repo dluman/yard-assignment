@@ -44,6 +44,11 @@
       "name": "Carrot",
       "color": "orange",
       "file": "CarrotSeed"
+    },
+    {
+      "name": "Nature's Mockery",
+      "color": "ruddy/reddish",
+      "file": "Tendril"
     }
   ]
 }

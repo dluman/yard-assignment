@@ -6,12 +6,19 @@ import gitit
 from narrator.Checkpoint import set_flag
 from narrator.Checkpoint import check_flag
 
+# TODO: Make sure you read the readme.md completely 
+# in order to complete this assignment correctly!!!
+# https://github.com/term-world/yard-assignment#brand-new-beautification-proposal-prompts-term-world-tenants-to-tidy-up
+
+# Calculating area
 # TODO: Create functions wich represent and complete the
 #       shapes/calculations required to build the treehouse.
-#       This is (at a minimum):
-#       * Triangle
-#       * Rectangle
-#       * Circle
+#       This is (at a minimum) three functions for the following shapes:
+# TODO: * Triangle
+# TODO: * Rectangle
+# TODO: * Circle
+# When completing term-world assignments *PAY ATTENTION TO THE README*
+
 
 # MIGHTDO: It could be helpful to create an additional function
 #          to assist with the exponents required by at least 
@@ -32,7 +39,7 @@ def main():
     # TODO: Add all of the calculated areas to achieve the full
     #       amount of lumber used; use the "total" variable
 
-    # TODO: Subtract cut-outs from "total"
+    # TODO: Subtract cut-outs from "total" area of wood
 
     # NARRATIVE -------------------------------------
     n = narrator.Narrator()
